@@ -252,7 +252,7 @@ module.exports = HandleMsg = async (aruga, message) => {
 		const StickerMetadatacrop = { author : authorstc, pack: packstc, keepScale: false }
 
         // [IDENTIFY]
-        const ownerNumber = "62895334951166@c.us"
+        const ownerNumber = "+6281359837041@c.us"
         const isOwnerBot = ownerNumber.includes(pengirim)
         const isOwner = ownerNumber.includes(pengirim)
         const isOwnerB = ownerNumber.includes(pengirim)
