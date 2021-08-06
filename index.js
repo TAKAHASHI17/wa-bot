@@ -44,3 +44,4 @@ const start = async (aruga = new aruga()) => {
 }
 create(options(start))
     .then((aruga) => start(aruga))
+    .catch((err) => console.error(err
